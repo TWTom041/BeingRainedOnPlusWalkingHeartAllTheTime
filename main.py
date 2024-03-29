@@ -35,7 +35,7 @@ title_text = title_font.render("123", True, BLUE)
 
 # Heart image
 heart_pos = [WIDTH // 2, HEIGHT // 2]
-heart_img = pygame.image.load("heart.png")
+heart_img = pygame.image.load("./plus.png")
 heart_img = pygame.transform.scale(heart_img, (80, 80))
 heart_rect = heart_img.get_rect()
 heart_rect.center = (WIDTH // 2, HEIGHT // 2)
