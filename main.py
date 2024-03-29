@@ -11,7 +11,7 @@ pygame.init()
 # Set up the screen
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Heart Walking in the Rain")
+pygame.display.set_caption("淋雨+一直走心")
 
 # set up background
 background = pygame.image.load("bg.jpg")
@@ -30,8 +30,8 @@ fonts = pygame.sysfont.get_fonts()
 emoji_font = [font for font in fonts if "emoji" in font][0]
 
 # title ####changed for testing####
-title_font = pygame.font.SysFont(None, 25)
-title_text = title_font.render("123", True, BLUE)
+title_font = pygame.font.SysFont("Microsoft YaHei", 25)
+title_text = title_font.render("淋雨+走心數值", True, BLUE)
 
 # Heart image
 heart_pos = [WIDTH // 2, HEIGHT // 2]
